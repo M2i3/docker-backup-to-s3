@@ -3,9 +3,11 @@ Docker Backup to Amazon S3
 
 Docker container that periodically backups files to Amazon S3 using [s3cmd sync](http://s3tools.org/s3cmd-sync) and cron.
 
+This version deletes removed files into the backup. It should be used with a S3 bucket that supports versionning.
+
 ### Usage
 
-	docker run -d [OPTIONS] istepanov/backup-to-s3
+	docker run -d [OPTIONS] m2i3/backup-to-s3
 
 ### Parameters:
 
