@@ -28,4 +28,4 @@ This version deletes removed files into the backup. It should be used with a S3 
 		-e SECRET_KEY=fakeawssecret \
 		-e S3_PATH=s3://my-bucket/backup/ \
 		-v /home/user/data:/data:ro	 \	
-		istepanov/backup-to-s3
+		m2i3/backup-to-s3
