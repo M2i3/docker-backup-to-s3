@@ -2,7 +2,8 @@
 bucket_location = US
 cloudfront_host = cloudfront.amazonaws.com
 default_mime_type = binary/octet-stream
-delete_removed = False
+delete_removed = True
+delete_after = True
 dry_run = False
 enable_multipart = True
 encoding = ANSI_X3.4-1968
