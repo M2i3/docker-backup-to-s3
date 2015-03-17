@@ -24,7 +24,7 @@ This version deletes removed files into the backup. It should be used with a S3 
 ### Example:
 
     docker run -d \
-    	-e ACCESS_KEY=fakeawskey \
+    -e ACCESS_KEY=fakeawskey \
 		-e SECRET_KEY=fakeawssecret \
 		-e S3_PATH=s3://my-bucket/backup/ \
 		-v /home/user/data:/data:ro	 \	
